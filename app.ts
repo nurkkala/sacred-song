@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
     selector: 'hello-world',
     template: `
     <div>
-        Hello world
+        Hello, Angular 2!
     </div>
     `
 })

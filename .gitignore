@@ -38,3 +38,5 @@ node_modules
 # Angular
 *.js.map
 *.js
+
+typings/
