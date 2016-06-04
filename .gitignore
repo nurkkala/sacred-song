@@ -34,3 +34,7 @@ node_modules
 
 # JetBrains
 .idea/
+
+# Angular
+*.js.map
+*.js
