@@ -1,15 +1,11 @@
-import { bootstrap } from "@angular/platform-browser-dynamic";
-import { Component } from "@angular/core";
+import {bootstrap} from "@angular/platform-browser-dynamic";
+import {Component} from "@angular/core";
 
 @Component({
     selector: 'hello-world',
-    template: `
-    <h1>Hello</h1>
-    <div>
-        Hello, Angular 2!
-    </div>
-    `
+    templateUrl: 'app.html'
 })
-class HelloWorld { }
+class HelloWorld {
+}
 
 bootstrap(HelloWorld);
